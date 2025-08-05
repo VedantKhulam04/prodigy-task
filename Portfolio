@@ -1,0 +1,70 @@
+Index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Hello, I'm Jane Doe</h1>
+    <p>Web Developer | Designer | Tech Enthusiast</p>
+    <img src="profile.jpg" alt="Jane Doe" class="profile-pic">
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm a passionate web developer with a background in computer science. I love building modern, responsive websites and web applications that solve real-world problems.
+    </p>
+    <ul>
+      <li><strong>Education:</strong> B.Sc. in Computer Science</li>
+      <li><strong>Experience:</strong> 3+ years of frontend and full-stack development</li>
+    </ul>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <p>HTML, CSS, JavaScript, React, Node.js, Git, Figma, and more.</p>
+  </section>
+
+  <footer>
+    <p>Contact: jane.doe@example.com</p>
+  </footer>
+</body>
+</html>
+Style.css
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom right, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  padding: 40px;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+section {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 700px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+}
+
+footer {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
